@@ -1,51 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:position="http://www.w3.org/1999/xhtml" xmlns:border="http://www.w3.org/1999/xhtml"
-      xmlns:background="http://www.w3.org/1999/xhtml" xmlns:margin="http://www.w3.org/1999/xhtml"
-      xmlns:padding="http://www.w3.org/1999/xhtml">
+<html lang="en"
+      xmlns:background="http://www.w3.org/1999/xhtml"
+      xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
   <title>AllCoffe.by</title>
   <style>
   body { background: url(фон.png); }
   .square {
-   height: 120px;
+   height: 890px;
    width: 1000px;
    background-color: #fff;
-   opacity: 0.9;
+   opacity: 0.8;
   }
   .square1 {
+  position:fixed;
+    top: 120px;
+    left: 140px;
    height: 170px;
    width: 1000px;
    background-color: SaddleBrown;
    opacity: 1;
-   }
-   .square2 {
-   height: 600px;
-   width: 1000px;
-   background-color: #fff;
-   opacity: 0.9;
-   }
-   .b1 {
-    background: #fff;
-    color: black;
-   }
-   .text-block_left {
-    margin-left:15px;
-   }
-    .text-block_right {
-    margin-right:15px;
-   }
+  }
+  .b1_американо {
+   position:fixed;
+   top: 320px;
+   left:180px;
+   background: #fff;
+   opacity: 1;
+   border-radius: 10px;
+  }
+  .b2_гляссе {
+   position:fixed;
+   top: 320px;
+   left:500px;
+   background: #fff;
+   opacity: 1;
+   border-radius: 10px;
+  }
+  .b3_корретто {
+   position:fixed;
+   top: 320px;
+   left:820px;
+   background: #fff;
+   opacity: 1;
+   border-radius: 10px;
+  }
+  .b4_кофе_по_венски {
+   position:fixed;
+   top: 620px;
+   left:180px;
+   background: #fff;
+   opacity: 1;
+   border-radius: 10px;
+  }
+  .b5_латте {
+   position:fixed;
+   top: 620px;
+   left:500px;
+   background: #fff;
+   opacity: 1;
+   border-radius: 10px;
+  }
+  .b6_эспрессо {
+   position:fixed;
+   top: 620px;
+   left:820px;
+   background: #fff;
+   opacity: 1;
+   border-radius: 10px;
+  }
+  .text-block_left {
+   margin-left:15px;
+  }
+   .text-block_right {
+   margin-right:15px;
+  }
+
 </style>
 </head>
 <body>
 
 <center>
 
-
 <div class="square">
-
   <div>
-
     <h1  style="float: left;" class="text-block_left">
       <font  size = "50" color = "SaddleBrown" face = "arial" >
      AllCoffe.by
@@ -60,13 +99,10 @@
         </b>
       </font>
     </h1>
-
   </div>
-
 </div>
 
   <div class="square1" align = "left">
-
     <div class="text-block_left">
       <font  size="4.5">
         <br>
@@ -86,12 +122,85 @@
       и всеми любимый напиток.
       </font>
     </div>
-
   </div>
 
-  <div class="square2" x="40">
+  <!-- buttons -->
 
-   </div>
+  <div >
+
+    <a href="AmericanoPage.html" class="b1_американо">
+      <button class="b1_американо" type="button" background: #fff >
+        <img src="американо.jpg" height="200" width="250">
+         <br>
+        <font size="5" color="SaddleBrown" face = "arial">
+          <b>
+        американо
+          </b>
+         </font>
+      </button>
+    </a>
+
+    <a href="GlacePage.html" class="b1_американо">
+    <button class="b2_гляссе" type="button" background: #fff >
+      <img src="гляссе.jpg" height="200" width="250">
+      <br>
+      <font size="5" color="SaddleBrown" face = "arial">
+        <b>
+      гляссе
+        </b>
+      </font>
+    </button>
+    </a>
+
+    <a href="CorrettoPage.html" class="b1_американо">
+    <button class="b3_корретто" type="button">
+      <img src="корретто.jpg" height="200" width="250">
+      <br>
+      <font size="5" color="SaddleBrown" face = "arial">
+        <b>
+      корретто
+       </b>
+      </font>
+    </button>
+    </a>
+
+    <a href="VienneseCoffePage.html" class="b1_американо">
+    <button class="b4_кофе_по_венски" type="button">
+      <img src="кофе_по_венски.jpg" height="215" width="250">
+      <br>
+      <font size="5" color="SaddleBrown" face = "arial">
+        <b>
+      кофе_по_венски
+        </b>
+      </font>
+    </button>
+    </a>
+
+    <a href="LattePage.html" class="b1_американо">
+    <button class="b5_латте" type="button">
+      <img src="латте.png" height="215" width="250">
+      <br>
+      <font size="5" color="SaddleBrown" face = "arial">
+        <b>
+      латте
+        </b>
+      </font>
+    </button>
+    </a>
+
+    <a href="EspressoPage.html" class="b1_американо">
+    <button class="b6_эспрессо" type="button">
+      <img src="эспрессо.jpg" height="215" width="250">
+      <br>
+      <font size="5" color="SaddleBrown" face = "arial">
+        <b>
+      эспрессо
+        </b>
+      </font>
+    </button>
+    </a>
+
+  </div>
 
 </center>
 </body>
