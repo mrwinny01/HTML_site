@@ -7,65 +7,75 @@
   <title>AllCoffe.by</title>
   <style>
   body { background: url(фон.png); }
+  TABLE {
+    width: 100%;
+    height: 100%;
+   }
   .square {
+  position:absolute;
+    left: 140px;
+    -moz-left:140px;
+    -opera-left:140px;
    height: 890px;
    width: 1000px;
    background-color: #fff;
    opacity: 0.8;
   }
   .square1 {
-  position:fixed;
+  position:absolute;
     top: 120px;
     left: 140px;
+    -moz-left:140px;
+    -opera-left:140px;
    height: 170px;
    width: 1000px;
    background-color: SaddleBrown;
    opacity: 1;
   }
   .b1_американо {
-   position:fixed;
-   top: 320px;
-   left:180px;
+   position:absolute;
+   top: 170px;
+   left:95px;
    background: #fff;
    opacity: 1;
    border-radius: 10px;
   }
   .b2_гляссе {
-   position:fixed;
-   top: 320px;
-   left:500px;
+   position:absolute;
+   top: 170px;
+   left:410px;
    background: #fff;
    opacity: 1;
    border-radius: 10px;
   }
   .b3_корретто {
-   position:fixed;
-   top: 320px;
-   left:820px;
+   position:absolute;
+   top: 170px;
+   left:725px;
    background: #fff;
    opacity: 1;
    border-radius: 10px;
   }
   .b4_кофе_по_венски {
-   position:fixed;
-   top: 620px;
-   left:180px;
+   position:absolute;
+   top: 450px;
+   left:95px;
    background: #fff;
    opacity: 1;
    border-radius: 10px;
   }
   .b5_латте {
-   position:fixed;
-   top: 620px;
-   left:500px;
+   position:absolute;
+   top: 450px;
+   left:410px;
    background: #fff;
    opacity: 1;
    border-radius: 10px;
   }
   .b6_эспрессо {
-   position:fixed;
-   top: 620px;
-   left:820px;
+   position:absolute;
+   top: 450px;
+   left:725px;
    background: #fff;
    opacity: 1;
    border-radius: 10px;
@@ -76,12 +86,14 @@
    .text-block_right {
    margin-right:15px;
   }
-
 </style>
+
 </head>
 <body>
 
-<center>
+<table>
+  <tr>
+    <td valign="center" align="center">
 
 <div class="square">
   <div>
@@ -101,6 +113,9 @@
     </h1>
   </div>
 </div>
+    </td>
+  </tr>
+</table>
 
   <div class="square1" align = "left">
     <div class="text-block_left">
@@ -123,8 +138,6 @@
       </font>
     </div>
   </div>
-
-  <!-- buttons -->
 
   <div >
 
@@ -202,6 +215,5 @@
 
   </div>
 
-</center>
 </body>
 </html>
